@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(4, 68, 124);
+}
+#homepage{
+    color: rgb(35, 171, 35);
+}
+.menu{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.menu li{
+    margin: auto;
+    padding: 0 10px 0 10px;
+    list-style-type: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.menu img{
+    width: 200px;
+    height: auto;
+}.menu input{
+    width: 200px;
+    height: 30px;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+.menu li:hover{
+    color: rgb(35, 171, 35);
+}
+.menu .sub-menu{
+    position: absolute;
+    display: none;
+    top: auto;
+    left: auto;
+}
+.menu li:hover .sub-menu{
+    background-color: white;
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+}
+.menu .sub-menu li:hover{
+    color: red;
+}
+.list{
+    display: block;
+}.menu .sub-menu li{
+    color: black;
+    margin: 10px 0 10px 0;
+    list-style-type: none;
+}
+.list h1{
+    color: black;
+    font-size: 10px;
+    padding: 10px 10px 0 10px;
+}
+.list h1:hover{
+    color: red;
+}
+.bg {
+    background-image: url(images/img-bg.jpg);
+    text-align: center;
+    padding: 100px 0 100px 0;
+    color: white;
+}
+.bg h1{
+    font-size: 40px;
+    margin-top: 10px;
+}
+.bg p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.bg form input{
+    width: 50%;
+    height: 30px;
+    margin-top: 10px;
+}
+.bg i{
+    background-color: blue;
+    padding: 7px 8px 10px 8px;
+}
+.bg ul{
+    display: flex;
+    margin-left: 360px;
+    margin-right: 360px;
+    margin-top: 30px;
+}
+.bg li{
+    margin: auto;
+    list-style-type: none;
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 15px;
+}
+.bg li:hover{
+    background-color: white;
+    color: black;
+}
+section h1{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.products{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.products #product img{
+    width: calc(100% - 10px);
+    height: 300px;
+}
+.products #product{
+    margin: auto;
+}
+.products #product h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 17px;
+    color: rgb(60, 59, 59);
+    text-transform: uppercase;
+}
+.products #product h3:hover{
+    color: rgb(161, 134, 134);
+}
+article h1{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.list-products{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.list-products .list-game{
+    border: 2px groove gainsboro;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.list-game img{
+    width: 100%;
+    height: auto;
+}
+.list-game ul{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.list-game li{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.list-game button{
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 30px;
+    background-color: rgb(91, 157, 91);
+    color: white;
+}
+.see{
+    margin-top: 10px;
+}
+.see button{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(39, 66, 100);
+    color: white;
+}
+.see h1{
+    margin-top: 40px;
+    font-size: 30px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.news{
+    margin-top: 10px;
+}
+.news button{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(39, 66, 100);
+    color: white;
+}
+.news h1{
+    margin-top: 40px;
+    font-size: 30px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.news .products #product a img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.news .products #product p{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: rgb(70, 68, 68);
+    margin-top: 10px;
+}
+footer img{
+    width: 200px;
+    height: 80px;
+}
